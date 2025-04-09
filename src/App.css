@@ -1,0 +1,22 @@
+/* Algemene stijl voor de hele app */
+body {
+  background-color: #87CEEB; /* Lichtblauwe achtergrond */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Stijl voor de scorekaart */
+.score-container {
+  background-color: #2c3e50; /* Donkerblauwe achtergrond */
+  color: white; /* Witte tekst */
+  padding: 20px 40px;
+  border-radius: 15px; /* Afgeronde hoeken */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Schaduw */
+  text-align: center; /* Centraal uitlijnen van de tekst */
+  font-size: 1.5em; /* Vergroten van de tekst */
+}
+
